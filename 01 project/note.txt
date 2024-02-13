@@ -1,0 +1,4 @@
+1. track cursor on rectangle and it's moving or not
+2.  then calulate we are in left from center or right from center
+3. then calulate how much left we are from center and apply color darkness according to max length from center.
+4. also determinae if I'm in center it may not change any thing 
