@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide-password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input-box">
+        <input type="password" placeholder="Enter your password" id="password">
+        <img src="/close.png" id="i-icon">
+    </div>
+    <script>
+        let icon = document.getElementById("i-icon");
+        let pass = document.getElementById("password");
+
+        icon.onclick = function(){
+            if(pass.type == "password"){
+           pass.type = "text";
+           icon.src = "open.png";
+            }else{
+                pass.type = "password";
+                icon.src = "close.png";
+            }
+        }
+
+        </script>
+
+</body>
+</html>
